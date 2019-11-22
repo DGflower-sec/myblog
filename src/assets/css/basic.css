@@ -1,0 +1,114 @@
+/* 基础样式,规约所有自定义样式统一前缀*/
+
+/* ---------------全局设置-------------- */
+* {
+	margin: 0;
+	padding: 0;
+	/* 防止越界 */
+	box-sizing: border-box;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	color: #009688;
+}
+/* ---------------布局设置-------------- */
+.su-container {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.su-row {
+	position: relative;
+	display: flex;
+}
+.su-nav{
+	height: 80px;
+	background-color: rgba(255, 214, 174, 0.8);
+}
+.su-col-12 {
+	flex: 1 1 100%;
+}
+
+.su-col-8 {
+	flex: 1 1 66.6%;
+	
+}
+
+.su-col-6 {
+	flex: 1 1 50%;
+}
+
+.su-col-4 {
+	flex: 1 1 33.3%;
+	
+}
+
+.su-col-3 {
+	flex: 1 1 25%;
+}
+
+.su-col-2 {
+	flex: 1 1 16.6%;
+}
+
+.su-col-1 {
+	flex: 1 1 8.3%;
+}
+
+/* ---------------对齐方式设置-------------- */
+/* flex横向布局的对齐,横向居中，纵向居中 */
+.su-fx-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* flex横向布局的对齐,横向左对齐，纵向居中 */
+.su-fx-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/* flex横向布局的对齐,横向右对齐，纵向居中 */
+.su-fx-right {
+	justify-content: flex-end;
+}
+
+/* flex横向布局的对齐,横向两端对齐，纵向居中 */
+.su-fx-between {
+	justify-content: space-between;
+}
+
+/* flex横向布局的对齐,横向均匀分布，纵向居中 */
+.su-fx-around {
+	justify-content: space-around;
+}
+
+.su-center{
+	text-align: center;
+}
+
+/* 指定统一前缀的class样式 */
+[class*='su-fx'] {
+	display: flex;
+	align-items: center;
+}
+
+/* flex纵向布局的对齐,横向居中，纵向顶端对齐 */
+.su-fxc-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+

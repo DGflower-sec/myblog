@@ -1,0 +1,85 @@
+/* 风格样式设置 */
+
+/* 字体设置 */
+.su-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.su-sub-title {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.su-meta {
+	font-size: 12px;
+	color: #b4b4b4;
+}
+
+/* ---------主题设置----------- */
+.su-primary-theme {
+	background-color: #009688;
+	color: #fff;
+}
+
+.su-warning-theme {
+	background-color: #fb8c00;
+	color: #fff;
+}
+
+.su-success-theme {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.su-disable-theme {
+	background-color: #e0e0e0;
+	color: #fff;
+}
+
+/* --------------按钮设置------------ */
+.su-btn {
+	border: none;
+	cursor: pointer;
+	/* margin: 5px; */
+}
+
+.su-btn-round {
+	border-radius: 20px;
+}
+
+.su-btn-circle {
+	border-radius: 50%;
+}
+
+.su-btn-normal {
+	width: 120px;
+	height: 35px;
+}
+
+.su-btn-large {
+	width: 140px;
+	height: 45px;
+}
+
+/* 表单元素样式 */
+.su-input-box {
+	display: block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	height: 35px;
+}
+
+/* 阴影样式 */
+.su-shadow {
+	box-shadow: 2px 5px 10px #aaa;
+}
+
+/* 头像样式 */
+.su-avatar {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
