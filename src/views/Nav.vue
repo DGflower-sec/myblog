@@ -10,19 +10,19 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/c">
+					<router-link to="topics">
 						<i class="iconfont">&#xe619;</i>
 						专题
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/p">
+					<router-link to="articles">
 						<i class="iconfont">&#xe661;</i>
 						文章
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/u">
+					<router-link to="users">
 						<i class="iconfont">&#xe688;</i>
 						作者
 					</router-link>
